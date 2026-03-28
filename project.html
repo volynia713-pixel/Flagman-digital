@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проект | Флагман</title>
+    <meta name="description" content="Кейс компании Флагман: производство, навигация, полиграфия, упаковка и другие проектные решения.">
+
+    <!-- Open Graph: наполняется через JS -->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="article">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏭</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="project-page">
+    <a class="skip-link" href="#project-content">Перейти к содержимому проекта</a>
+
+    <header class="site-header project-site-header">
+        <div class="top-nav">
+            <div class="container">
+                <nav class="nav-links" aria-label="Основная навигация">
+                    <a href="index.html#about">О нас</a>
+                    <a href="index.html#process">Процесс</a>
+                    <a href="index.html#portfolio">Портфолио</a>
+                    <a href="index.html#contact">Контакты</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="logo-container project-back-container">
+            <div class="container">
+                <a href="index.html#portfolio" class="project-back-link" aria-label="Вернуться к портфолио">
+                    <span class="project-back-link__arrow" aria-hidden="true">←</span>
+                    <span class="project-back-link__text">Назад к портфолио</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="project-content" class="project-content-shell" aria-live="polite">
+        <!-- Контент проекта подставляется через script.js по параметру ?id= -->
+        <section class="status-box project-loading-state" aria-labelledby="project-loading-title">
+            <div class="container">
+                <h1 id="project-loading-title">Загрузка проекта</h1>
+                <p>Подготавливаем материалы кейса.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

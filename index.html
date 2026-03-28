@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Флагман | Производство, дизайн и брендинг</title>
+    <meta name="description" content="Флагман — производство, дизайн и полный цикл брендирования: полиграфия, упаковка, навигация, сайты и брендовые ролики.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Флагман | Производство, дизайн и брендинг">
+    <meta property="og:description" content="Полный цикл брендирования: упаковка, полиграфия, навигация, сайты и брендовые ролики для сильных брендов.">
+    <meta property="og:image" content="https://твойсайт.ru/images/og-main.jpg">
+    <meta property="og:url" content="https://твойсайт.ru">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏭</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="home-page">
+    <a class="skip-link" href="#main-content">Перейти к основному содержимому</a>
+
+    <header class="site-header">
+        <div class="top-nav">
+            <div class="container">
+                <nav class="nav-links" aria-label="Основная навигация">
+                    <a href="#about">О нас</a>
+                    <a href="#branding">Брендинг</a>
+                    <a href="#process">Процесс</a>
+                    <a href="#portfolio">Портфолио</a>
+                    <a href="#contact">Контакты</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="logo-container">
+            <div class="container">
+                <a href="index.html" class="logo" aria-label="Флагман — перейти на главную страницу">
+                    <img src="images/Флагман.png" alt="Логотип Флагман">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- ========== HERO ========== -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-gradient" aria-hidden="true"></div>
+
+            <div class="hero-video" aria-hidden="true">
+                <video autoplay muted loop playsinline preload="metadata" id="hero-video">
+                    <source src="video/hero-print.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="hero-container container">
+                <div class="hero-text">
+                    <p class="hero-label">Производство, дизайн и брендинг</p>
+
+                    <h1 id="hero-title" class="hero-title">
+                        <span class="title-line title-line-1">Премиальное</span>
+
+                        <span class="production-wrapper">
+                            <span class="production-mask">
+                                <span class="production-text" id="production-word">производство</span>
+                                <span class="print-trail" id="print-trail"></span>
+                            </span>
+                            <span class="brand-line" id="brand-line"></span>
+                        </span>
+
+                        <span class="title-line title-line-3">для сильных брендов</span>
+                    </h1>
+
+                    <p class="hero-description" id="hero-description">
+                        Мы создаем бренд как единую систему — в материале, digital и пространстве.
+                        От упаковки и навигации до сайтов и брендовых роликов.
+                    </p>
+
+                    <div class="hero-buttons" aria-label="Основные действия">
+                        <a href="#contact" class="btn-primary">Обсудить задачу</a>
+                        <a href="#portfolio" class="btn-secondary">Смотреть проекты</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== О НАС ========== -->
+        <section class="features" id="about" aria-labelledby="about-title">
+            <div class="container features-container">
+                <p class="section-label">О нас</p>
+
+                <h2 id="about-title" class="about-heading">
+                    Мы работаем там, где важен<br>
+                    целостный образ бренда
+                </h2>
+
+                <div class="features-grid">
+                    <article class="feature-card reveal">
+                        <span class="feature-number">01</span>
+                        <h3>Система</h3>
+                        <p>Собираем бренд в единую экосистему: от носителей и упаковки до сайта, ролика и визуальной коммуникации.</p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <span class="feature-number">02</span>
+                        <h3>Сроки</h3>
+                        <p>Планируем проект так, чтобы клиент видел понятный маршрут работ и получал результат без потери качества и ритма.</p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <span class="feature-number">03</span>
+                        <h3>Экспертиза</h3>
+                        <p>Подбираем формат решения под задачу бренда: физическая среда, digital, motion, упаковка или комплексный запуск.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== ПОЛНЫЙ ЦИКЛ БРЕНДИРОВАНИЯ ========== -->
+        <section class="branding-ecosystem" id="branding" aria-labelledby="branding-title">
+            <div class="container">
+                <p class="section-label">Полный цикл брендирования</p>
+
+                <h2 id="branding-title" class="about-heading branding-heading reveal">
+                    Создаем бренд в digital, видео,
+                    пространстве и физических носителях
+                </h2>
+
+                <div class="branding-grid">
+                    <article class="feature-card reveal branding-card">
+                        <span class="feature-number">01</span>
+                        <h3>Сайты и лендинги</h3>
+                        <p>Разрабатываем промо-сайты, корпоративные страницы и digital-носители, которые продолжают характер бренда.</p>
+                    </article>
+
+                    <article class="feature-card reveal branding-card">
+                        <span class="feature-number">02</span>
+                        <h3>Брендовые ролики</h3>
+                        <p>Создаем motion-материалы, имиджевые ролики и визуальные истории для запуска, презентации и рекламных кампаний.</p>
+                    </article>
+
+                    <article class="feature-card reveal branding-card">
+                        <span class="feature-number">03</span>
+                        <h3>Пространство бренда</h3>
+                        <p>Проектируем навигацию, вывески, интерьерные и выставочные решения, которые работают в реальной среде.</p>
+                    </article>
+
+                    <article class="feature-card reveal branding-card">
+                        <span class="feature-number">04</span>
+                        <h3>Упаковка и носители</h3>
+                        <p>Делаем упаковку, полиграфию и POS-материалы как часть единой системы визуального восприятия бренда.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== ПРОЦЕСС ========== -->
+        <section class="process-section" id="process" aria-labelledby="process-title">
+            <div class="container process-container">
+                <p class="section-label">Процесс</p>
+
+                <h2 id="process-title" class="about-heading">
+                    Как мы ведем проект от задачи до результата
+                </h2>
+
+                <div class="process-grid">
+                    <article class="process-card reveal">
+                        <span class="feature-number">01</span>
+                        <h3>Бриф и анализ</h3>
+                        <p>Понимаем задачу, носитель, аудиторию, сроки, ограничения и требования бренда до старта реализации.</p>
+                    </article>
+
+                    <article class="process-card reveal">
+                        <span class="feature-number">02</span>
+                        <h3>Концепция и система</h3>
+                        <p>Определяем, какие инструменты решают задачу лучше: упаковка, навигация, сайт, ролик или комплексная связка.</p>
+                    </article>
+
+                    <article class="process-card reveal">
+                        <span class="feature-number">03</span>
+                        <h3>Реализация</h3>
+                        <p>Запускаем проект по этапам с контролем качества, сроков, визуальной логики и технических деталей.</p>
+                    </article>
+
+                    <article class="process-card reveal">
+                        <span class="feature-number">04</span>
+                        <h3>Сдача результата</h3>
+                        <p>Передаем решение, которое выглядит убедительно, работает в реальной среде и усиливает бренд во всех точках контакта.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== ПОРТФОЛИО ========== -->
+        <section class="portfolio-preview" id="portfolio" aria-labelledby="portfolio-title">
+            <div class="container">
+                <h2 id="portfolio-title" class="visually-hidden">Портфолио проектов</h2>
+
+                <div class="filter-nav-main" id="main-categories">
+                    <button class="filter-btn active" data-category="all">Проекты</button>
+                    <button class="filter-btn" data-category="branding">Брендинг</button>
+                    <button class="filter-btn" data-category="print">Полиграфия</button>
+                    <button class="filter-btn" data-category="signs">Навигация / Вывески</button>
+                    <button class="filter-btn" data-category="packaging">Упаковка</button>
+                    <button class="filter-btn" data-category="design">Дизайн</button>
+                    <button class="filter-more" id="toggle-hidden-categories" type="button">ещё ▼</button>
+                </div>
+
+                <div class="filter-nav-hidden" id="hidden-categories" style="display: none;">
+                    <button class="filter-btn" data-category="largeformat">Широкоформат</button>
+                    <button class="filter-btn" data-category="interior">Интерьерная печать</button>
+                    <button class="filter-btn" data-category="uv">УФ / Фрезеровка</button>
+                    <button class="filter-btn" data-category="pos">POS / Мероприятия</button>
+                </div>
+
+                <div class="filter-nav-sub" id="submenu-branding" style="display: none;">
+                    <button class="filter-sub-btn" data-sub="web">Сайты</button>
+                    <button class="filter-sub-btn" data-sub="video">Ролики</button>
+                    <button class="filter-sub-btn" data-sub="identity">Айдентика</button>
+                    <button class="filter-sub-btn" data-sub="campaign">Кампании</button>
+                </div>
+
+                <div class="filter-nav-sub" id="submenu-print" style="display: none;">
+                    <button class="filter-sub-btn" data-sub="catalogs">Каталоги</button>
+                    <button class="filter-sub-btn" data-sub="booklets">Буклеты</button>
+                    <button class="filter-sub-btn" data-sub="bags">Пакеты</button>
+                    <button class="filter-sub-btn" data-sub="folders">Папки</button>
+                    <button class="filter-sub-btn" data-sub="calendars">Календари</button>
+                    <button class="filter-more-sub" type="button">ещё ▼</button>
+                </div>
+
+                <div class="filter-nav-sub" id="submenu-signs" style="display: none;">
+                    <button class="filter-sub-btn" data-sub="navigation">Навигация</button>
+                    <button class="filter-sub-btn" data-sub="signboards">Вывески</button>
+                    <button class="filter-sub-btn" data-sub="lightboxes">Лайтбоксы</button>
+                    <button class="filter-sub-btn" data-sub="stands">Стенды</button>
+                </div>
+
+                <div class="filter-nav-sub" id="submenu-packaging" style="display: none;">
+                    <button class="filter-sub-btn" data-sub="premium">Премиум</button>
+                    <button class="filter-sub-btn" data-sub="retail">Retail</button>
+                    <button class="filter-sub-btn" data-sub="gift">Подарочная</button>
+                </div>
+
+                <!-- Проекты загружаются только через data.json -->
+                <div class="portfolio-grid" id="portfolio-grid"></div>
+
+                <div class="show-more-wrapper">
+                    <button id="show-more-btn" class="btn-secondary" type="button">Показать ещё</button>
+                </div>
+
+                <div id="portfolio-end-message" class="end-message hidden">
+                    • • •
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== ФОРМА ОБРАТНОЙ СВЯЗИ ========== -->
+        <section class="contact-section" id="contact" aria-labelledby="contact-title">
+    <div class="container">
+            <div class="cta-footer reveal">
+                <h2 id="contact-title">Обсудите вашу задачу</h2>
+                <p class="cta-description" id="contact-description">
+                    Оставьте заявку — мы свяжемся с вами в течение 2 часов.
+                </p>
+
+                <form
+                    id="demo-form"
+                    class="contact-form"
+                    novalidate
+                    aria-describedby="contact-description"
+                    action="https://formspree.io/f/myknbbjv"
+                    method="POST"
+                >
+                    <div class="form-row">
+                        <label class="visually-hidden" for="name">Ваше имя</label>
+                        <input type="text" id="name" name="name" placeholder="Ваше имя" required minlength="2" autocomplete="name">
+                        <div class="error-message" id="name-error" aria-live="polite"></div>
+                    </div>
+
+                    <div class="form-row phone-row">
+                        <label class="visually-hidden" for="phone">Ваш телефон</label>
+                        <span class="phone-prefix" aria-hidden="true">+7</span>
+                        <input type="tel" id="phone" name="phone" placeholder="(___) ___-__-__" required maxlength="15" inputmode="numeric" autocomplete="tel-national">
+                        <div class="error-message" id="phone-error" aria-live="polite"></div>
+                    </div>
+
+                    <div class="form-row">
+                        <label class="visually-hidden" for="email">Ваш email</label>
+                        <input type="email" id="email" name="email" placeholder="Ваш email" required autocomplete="email">
+                        <div class="error-message" id="email-error" aria-live="polite"></div>
+                    </div>
+
+                    <div class="form-row">
+                        <label class="visually-hidden" for="service">Выберите услугу</label>
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>— Выберите услугу —</option>
+                            <option value="print">Полиграфия</option>
+                            <option value="signs">Навигация / Вывески</option>
+                            <option value="packaging">Упаковка</option>
+                            <option value="web">Сайт / лендинг</option>
+                            <option value="video">Брендовый ролик / motion</option>
+                            <option value="branding">Комплексный брендинг</option>
+                            <option value="other">Другое</option>
+                        </select>
+                        <div class="error-message" id="service-error" aria-live="polite"></div>
+                    </div>
+
+                    <div class="form-row is-hidden" id="message-row">
+                        <label class="visually-hidden" for="message">Описание задачи</label>
+                        <textarea id="message" name="message" placeholder="Опишите вашу задачу" rows="3"></textarea>
+                        <div class="error-message" id="message-error" aria-live="polite"></div>
+                    </div>
+
+                    <div class="form-row checkbox-row">
+                        <label for="consent">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <span>Я согласен на обработку персональных данных</span>
+                        </label>
+                        <div class="error-message" id="consent-error" aria-live="polite"></div>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit" class="btn-primary" id="submit-btn">Отправить заявку</button>
+                    </div>
+                </form>
+
+                <div id="form-success" class="form-success is-hidden" aria-live="polite" role="status" tabindex="-1">
+                    <h3>✅ Ваша заявка принята!</h3>
+                    <p>Спасибо! Наш менеджер свяжется с вами в течение 2 часов.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== ПОДВАЛ ========== -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div>
+                <div class="footer-logo">ФЛАГМАН</div>
+                <p class="footer-copyright">© 2024 Все права защищены</p>
+            </div>
+
+            <nav class="footer-links" aria-label="Дополнительная навигация">
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
